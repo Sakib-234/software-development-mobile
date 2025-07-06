@@ -35,7 +35,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
     super.initState();
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('http://10.0.2.2/mobile/'));
+      ..loadRequest(Uri.parse('https://ug2002041.cse.pstu.ac.bd/mobile/'));
   }
 
   @override
